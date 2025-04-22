@@ -1,8 +1,60 @@
 {
+  "name": "fna-demo",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
+    "@fontsource/poppins": "^5.0.8",
+    "@mui/icons-material": "^5.17.1",
     "@mui/lab": "^5.0.0-alpha.166",
-    "@mui/material": "^5.15.11"
+    "@mui/material": "^5.15.11",
+    "@mui/system": "^5.15.10",
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/jest": "^29.5.11",
+    "@types/moment": "^2.11.29",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.57",
+    "@types/react-calendar": "^3.9.0",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-router-dom": "^5.3.3",
+    "css-loader": "^7.1.2",
+    "framer-motion": "^12.7.4",
+    "moment": "^2.30.1",
+    "react": "^18.2.0",
+    "react-calendar": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-router-dom": "^7.5.1",
+    "react-scripts": "5.0.1",
+    "style-loader": "^4.0.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^3.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
